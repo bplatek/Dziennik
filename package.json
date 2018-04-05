@@ -2,7 +2,7 @@
   "name": "projekt-dziennik",
   "version": "1.0.0",
   "description": "My simple app",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode development --open --inline --hot --content-base src --port 8088"
@@ -12,7 +12,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "react": "16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

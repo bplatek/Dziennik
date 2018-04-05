@@ -1,0 +1,27 @@
+.latest-announcements {
+  border-bottom: 1px solid #ccc;
+}
+
+.latest-announcement {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: lighten(gold, 45%);
+  border-radius: 4px;
+  color: #666;
+}
+
+.latest-announcement__title {
+  margin-bottom: 5px;
+}
+
+.latest-announcement__date {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.latest-announcement--important {
+  background-color: lighten(tomato, 33%);
+  border-radius: 4px;
+  color: tomato;
+}
